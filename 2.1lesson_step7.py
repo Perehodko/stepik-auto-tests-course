@@ -8,8 +8,6 @@ link = "http://suninjuly.github.io/get_attribute.html"
 driver = webdriver.Chrome(executable_path='C:\chromedriver\chromedriver.exe')
 driver.get(link)
 
-
-
 img = driver.find_element_by_id('treasure')
 
 pic_attribute = img.get_attribute("valuex")
@@ -33,4 +31,3 @@ radiobutton.click()
 button = driver.find_element_by_css_selector("button.btn.btn-default")
 
 button.click()
-
