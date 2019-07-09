@@ -8,3 +8,26 @@ Homework for course Automation testing with Python -- https://stepik.org/course/
 - Система управления пакетами pip
 - Бибилиотека Selenium  3.13.0
 - Драйвер для Chrome ChromeDriver
+
+Linux
+
+Система управления пакетами pip:
+```
+$ sudo apt-get install -y python3-pip
+```
+Библиотека Selenium:
+```
+pip install selenium==3.13.0
+pip list
+```
+Установка ChromeDriver:
+```
+$ wget https://chromedriver.storage.googleapis.com/75.0.3770.8/chromedriver_linux64.zip
+$ unzip chromedriver_linux64.zip
+```
+Переместите разархивированный файл с СhromeDriver в нужную папку и разрешите запускать chromedriver как исполняемый файл:
+```
+$ sudo mv chromedriver /usr/bin/chromedriver
+$ sudo chown root:root /usr/bin/chromedriver
+$ sudo chmod +x /usr/bin/chromedriver
+```
