@@ -11,11 +11,11 @@ Homework for course Automation testing with Python -- https://stepik.org/course/
 
 Linux
 
-Система управления пакетами pip:
+Установка системы управления пакетами pip:
 ```
 $ sudo apt-get install -y python3-pip
 ```
-Библиотека Selenium:
+Установка библиотеки Selenium:
 ```
 pip install selenium==3.13.0
 pip list
