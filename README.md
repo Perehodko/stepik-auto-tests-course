@@ -8,6 +8,8 @@ Homework for course Automation testing with Python -- https://stepik.org/course/
 - Система управления пакетами pip
 - Бибилиотека Selenium  3.13.0
 - Драйвер для Chrome ChromeDriver
+- unittest
+- PyTest 
 
 Linux
 
@@ -30,4 +32,8 @@ $ unzip chromedriver_linux64.zip
 $ sudo mv chromedriver /usr/bin/chromedriver
 $ sudo chown root:root /usr/bin/chromedriver
 $ sudo chmod +x /usr/bin/chromedriver
+```
+Установка PyTest:
+```
+$ pip install pytest==3.10.1
 ```
