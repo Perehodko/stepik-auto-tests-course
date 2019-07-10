@@ -9,7 +9,7 @@ Homework for course Automation testing with Python -- https://stepik.org/course/
 - Бибилиотека Selenium  3.13.0
 - Драйвер для Chrome ChromeDriver
 - unittest
-- PyTest 
+- PyTest 3.10.1
 
 Linux
 
